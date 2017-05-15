@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+<title>Project</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<style>
+   /*NAVIGATION*/
+.navbar{
+  background-color:#222222;
+  text-transform: uppercase;
+  font-family:'PT Sans Narrow', Arial,sans-serif;
+  font-weight:700;
+}
+.navbar  a{
+  color:white !important;
+  opacity:0.7 !important;
+}
+
+.navbar a:hover{
+  opacity:1.0 !important;
+  background-color:#111111 !important;
+}
+
+.navbar .acitve{
+  background-color:#111111!important;
+}
+
+.dropdown-toggle{
+  background-color:#111111 !important;
+}
+
+.dropdown-menu a{
+  background-color:white!important;
+  color:orange!important;
+  font-weight: 700!important;
+  font-size:15px;
+  cursor: pointer;
+}
+.dropdown-menu a:hover{
+  background-color:white!important;
+  color:orange!important;
+}
+/*End of Navigation*/
+
+/* Carousel*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      background-color: #3c763d;
+  }
+
+  .glyphicon-chevron-left, .glyphicon-chevron-right{
+ height:80px;
+  width:80px;
+  font-size:30px;
+  padding:25px 20px;
+  border-radius:50%;
+  color:#fff;
+  }
+
+  @media (max-width: 768px){
+  .carousel {
+      width:100% !important;
+      height:450px;
+      margin:;
+      padding:; 
+      
+  }
+  }
+ 
+/*End of carousel*/
+
+
+/*Services*/
+.services {
+  padding: 80px 0 80px;
+  text-align: center;
+}
+
+.services h2,
+.services h4{
+  color:#4c4c4c;
+  margin:20px 0 20px;
+}
+.services p{
+  color:#737373;
+  font-size:14px;
+  padding-bottom:40px;
+}
+
+.services i{
+  height:80px;
+  width:80px;
+  font-size:30px;
+  padding:25px 20px;
+  border-radius:50%;
+  background-color:#6699cc;
+  color:#fff;
+}
+
+@media(max-width:768px){
+  .services{
+    padding:20px;
+
+
+  }
+  .services i{
+    padding:25px 20px;
+    margin: 25px;
+  }
+}
+
+
+
+/*Clients*/
+.clients h2{
+  text-align: center;
+  padding:40px 0 25px;
+}
+.clients h3{
+  margin:20px 140px 150px;
+}
+.clients img{
+  height: 100px;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+
+.clients p{
+  color:#737373;
+  font-size:14px;
+  padding-bottom:40px;
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .clients h2{
+    padding:auto;
+  }
+}
+/* End Clients*/
+
+/*Table*/
+.table-bordered {
+  padding:50px 500px 50px;
+  text-align: center;
+  height:350px;
+  border-color: #00004d;
+}
+
+.table-bordered thead tr th{
+  text-align: center;
+  font-size:18px;
+  background-color:  #009933;
+  padding:20px 0px 20px;
+  color: black;
+}
+.table-bordered tbody tr td{
+  font-size:16px;
+  padding:10px;
+}
+
+/*end of table*/
+
+.hr{
+  color: black;
+  width: 15px !important;
+}
+
+/*Footer*/
+.footer{
+  margin-top: 30px;
+ text-align:center;
+ padding: 10px;
+ background-color: #000033;
+ 
+
+}
+
+.copiright{
+  text-align: center;
+  background-color: #00001a;
+  color: #fff;
+  height: 55px;
+  margin-top: -12px;
+  padding: 12px;
+}
+/*End of footer*/
+</style>
+</head>
+<body>
+
+<!---NAVIGATION-->
+<div class="navbar navbar-default navbar-fixed-top" id="mynavbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          	<span class="icon-bar"></span>
+          	<span class="icon-bar"></span>
+          	<span class="icon-bar"></span>
+          </button>
+           <a href="#" class="navbar-brand">Website</a>
+        </div>
+        <div class="navbar-collapse collapse">
+        	  <ul class="nav navbar-nav navbar-right">
+        		    <li><a href="#">Home</a></li>
+
+
+                <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="devlopment">Devlopment & Services</a></li>
+                    <li><a href="consulting.html">Consulting</a></li>
+                    <li><a href="training.html">Training</a></li>
+               </ul>
+
+                <li><a href="carrier.html">Carrier</a></li>
+                <li><a href="ShushantGAbout.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End of NAVIGATION-->
+
+<!-- starting of carousel-->
+<div class="container-fluid">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"  role="listbox">
+
+      <div class="item active">
+        <img src="123456.jpg" alt="Chania" width="100%" height="100%">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="123456.jpg" alt="Chania" width="100%" height="100%">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="123456.jpg" alt="Flower" width="100%" height="100%">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="123456.jpg" alt="Flower" width="100%" height="100%">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!--end of carousel-->
+
+
+ <!--SERVICES-->
+<div class="services" id="services">
+  <div class="container">
+    <h2 class="wow bounceInDown"data-wow-delay="0.1s">Services</h2>
+    <p class="wow bounceInDown"data-wow-delay="0.1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="2.2s">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+        <h4>Product Devlopment & services</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.</p>
+        <button class="btn btn-primary">Read More</button>
+      </div>
+      
+      <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="1.2s">
+         <i class="fa fa-database" aria-hidden="true"></i>
+         <h4>Consulting</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.</p><button class="btn btn-primary">Read More</button>
+        </div>
+
+      <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="0.5s">
+         <i class="fa fa-university" aria-hidden="true"></i>
+               <h4>Training</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh.</p><button class="btn btn-primary">Read More</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--End of SERVICES-->
+
+
+
+<!-- Clients -->
+<div class="clients" id="clients">
+   <div class="container">
+    <div class="row">
+      <h2 class="wow bounceInDown"data-wow-delay="0.1s">Our Clients</h2>
+        <p class="wow bounceInDown"data-wow-delay="0.1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.</p><hr>
+
+      <div class="col-md-3 wow fadeInLeft"data-wow-delay="2.9s">
+        <img src="apple logo.png">
+      </div>
+
+      <div class="col-md-3 wow fadeInLeft"data-wow-delay="2.1s">
+        <img src="Facebook.png">
+      </div>
+
+      <div class="col-md-3 wow fadeInLeft"data-wow-delay="1.2s">
+        <img src="hp.png">
+      </div>
+
+      <div class="col-md-3  wow fadeInLeft"data-wow-delay="0.5s">
+        <img src="ford.png">>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End of Clients -->
+<hr>
+
+
+
+
+
+<!--FOOOTER-->
+<div class="footer" id="footer">
+
+  <!--table-->
+ <div class="container-fluid">
+  <table class="table-bordered">
+    <thead>
+      <tr>
+        <th>MoonData</th>
+        <th>Services</th>
+        <th>Industries</th>
+        <th>Contact Us</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.</td>
+         
+          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.</td>
+
+          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.</td>
+
+          <td>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis hendrerit dui at dignissim. Etiam quis erat nibh. Curabitur ornare ac nunc eu volutpat.
+          </td>
+      </tr>
+    </tbody>
+  </table>
+ </div>
+<!--table-->
+</div>
+
+<div class="copiright" id="copiright">
+  <h4>©copyright2017</h4>
+</div>
+
+<!--END OF FOOTER-->
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
